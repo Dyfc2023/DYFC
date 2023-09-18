@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DYFC | HOME</title>
+    <link rel="icon" type="image/x-icon" sizes="1600x1600" href="/img/favicon.ico">
+   
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+  <i class="fas fa-bars" style="font-size:24px;"></i>
+
+    <section class="header">
+        <nav>
+            <a href = "index.html"><img src="/img/logo.png" alt="DYFC"></a>
+            <div class="dropdown" style="float:right;">
+              <button class="dropbtn">Menu</button>
+              <div class="dropdown-content">
+            
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html" style="color: rgb(47, 239, 127)";>News</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="membership.html">Apply for membership</a></li>
+                <li><a href="sponsor.html">Sponsor</a></li>
+              </ul>
+              </div>
+              </div>
+        </nav>
+
+        
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="img/1.jpg" >
+            <div class="text">Join with us in this coming seminar</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img/2.jpg" >
+            <div class="text">No Registration fee applied</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img/3.jpg" >
+            <div class="text">We will learn something together</div>
+          </div>
+          
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+          </div>
+
+          <br><br><br><br><br><br><br><br><br>  
+
+
+          <div class="coming">
+            <h1>Important notice</h1>
+            <br><br>
+            <div>
+            <ol>
+              <li>1 Day seminar programme will be held soon and the details to all the leaders will be circulated soon via social medias.</li>
+              <li>All leaders are requested to fill the google forms shared in whatsapp group.</li>
+              <li>All leaders are requested to adhere the DYFC mission and vision and work accordingly as per the role allotted</li>
+
+
+            </ol>
+          </div>
+
+
+
+
+          </div>
+        
+      
+
+
+
+
+          
+          <script>
+          let slideIndex = 0;
+          showSlides();
+          
+          function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 4000); 
+          }
+          </script>
+          
+        
+        <br><br><br><br><br><br><br>
+
+
+      
+        </section>
+        <section class="footer">        
+            <nav>
+                <a href = "index.html"><img src="/img/logo.png" alt="DYFC"></a>
+                <div>
+                  <ul>
+                    <li><a href="Location.html" >Locations</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="policy.html">Policy</a></li>
+                  </ul>
+                  <br> <br><br>
+                  
+              
+                  </div>
+                  <div class="copy"><p> © Dooars Youth For Christ</p>
+                  </div>
+            </nav>
+      </section>
+    <script src="script.js"></script> 
+</body>
+</html>
