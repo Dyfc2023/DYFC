@@ -9,7 +9,16 @@ iframe{
   left: 5vw;
 }
 
+.ab h1{
+  text-align: center;
+  font-size: 3vh;
+  text-transform: uppercase;
+}
 
+.ab p{
+  padding: 0 45px;
+  font-size: 2vh;
+}
 
 .map a{
   background-color: rgba(53, 110, 223, 0.718);
